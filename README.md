@@ -1,2 +1,3 @@
 # custom_virtual_assistant
-This Python code defines a virtual assistant named "Bro". 
+
+This Python code defines a virtual assistant named "Bro". It uses several modules such as pyttsx3, speech_recognition, wikipedia, webbrowser, os, and smtplib. Bro can perform various tasks such as wishing good morning/afternoon/evening, searching on Wikipedia, opening YouTube/Google/StackOverflow, playing music on Spotify, telling the current time, and sending an email. It also has a function to set reminders. The code listens to the user's voice using the microphone, recognizes speech using Google Speech Recognition API, and responds with voice output using the pyttsx3 module. The main function of the code is to loop infinitely until the user says "goodbye" to the assistant.
